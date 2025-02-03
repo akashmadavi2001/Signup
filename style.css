@@ -1,0 +1,82 @@
+@import url("D:\Editing tools\Fonts\governor.ttf");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: governor;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+   background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.outerbox {
+    width: 100vw;
+    height: 100vh;
+}
+
+.innerbox {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 50px 20px 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.197);
+    backface-visibility: blur(10px);
+    backdrop-filter: blur(8px);
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.429);
+    box-shadow: 2px 2px 5px #21212165;
+}
+
+.header1{
+    text-shadow: 1px 1px 2px black;
+}
+.header1 h2 {
+    color: #ffffff;
+}
+
+.header1 p {
+    color: #b2b2b2;
+}
+
+.main1 {
+    text-shadow: 1px 1px 2px black;
+    margin: 10px 2px;
+}
+
+.main1 p { 
+    color: #ffffff;
+    padding: 7px;   
+}
+
+.main1 input {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    position: relative;
+    margin: 0px 10px;
+    padding: 5px;
+    width: 100%;
+}
+.main1 input[type="submit"]{
+    background-color: rgb(178, 226, 246);
+}
+.main1 input[type="submit"]:hover{
+    background-color: rgb(112, 215, 249);
+}
+.footer1{
+    padding: 2px 0px 0px 30px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+.footer1 a{
+    color: rgb(42, 200, 252);
+}
